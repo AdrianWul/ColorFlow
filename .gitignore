@@ -1,0 +1,22 @@
+# Certificate (contains private key - NEVER commit this!)
+certificate.p12
+*.p12
+
+# ZXP packages (except the release file)
+*.zxp
+!colorflow.zxp
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*~
